@@ -22,6 +22,7 @@ include_directories(
 
 list(APPEND custom_srcs
     
+    #server.cpp
     main.cpp
     
 )

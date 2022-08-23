@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 /mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/api.h
-iostream
--
+server.h
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/server.h
 
 /mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/server.h
 vector
@@ -19,8 +19,6 @@ iostream
 -
 
 /mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp
-inc/server.h
-/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/server.h
 inc/api.h
 /mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/api.h
 
