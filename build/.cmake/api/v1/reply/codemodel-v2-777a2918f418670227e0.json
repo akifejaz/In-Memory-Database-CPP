@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "INMem_DB",
+					"name" : "InMem_DB",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "INMem_DB::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-INMem_DB-Debug-bc66ca2cd306cdd9d3b5.json",
-					"name" : "INMem_DB",
+					"id" : "InMem_DB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InMem_DB-Debug-575edd74f14c5dcf01cf.json",
+					"name" : "InMem_DB",
 					"projectIndex" : 0
 				}
 			]
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build",
-		"source" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB"
+		"build" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build",
+		"source" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP"
 	},
 	"version" : 
 	{

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/api.h
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/api.h
 iostream
 -
 
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/server.h
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/server.h
 vector
 -
 string
@@ -18,9 +18,9 @@ string
 iostream
 -
 
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/main.cpp
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp
 inc/server.h
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/server.h
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/server.h
 inc/api.h
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/api.h
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc/api.h
 

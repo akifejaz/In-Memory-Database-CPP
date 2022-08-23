@@ -3,90 +3,86 @@
 #include "inc/api.h"
 
 static bool connec = false; //flag for connection
-int show();
-int FunctionsToPerform(int);
+int adminShow();
+int userShow();
+int loginPerson();
+
+
+// enum Person{
+//     user,admin, exit
+// };
 
 int main()
 {   
+    Empl
+
     cout << "Welcome to the Employee Management System" << endl;
-
-    if(connection()==1){ //connection establish
-
-        connec = true;
-    }
-    else{
-        connec = false;
-        cout<<"Connection not established"<<endl;
-        return 0;
-    }
+    int person = loginPerson(); int choice = 0;
+    if(person == -1 || person == 3){return -1;}
 
     while(true){
+        
+        if(person==1){
+            cout << "User logged in" << endl;
 
-        int choice = show();
-        if(choice == 5){
-            break;
+            choice = userShow();
+            if(choice == -1 || choice == 3){return -1;}
+
+            choice = userFunctions(choice);
+            if(choice == -1){return -1;}
+
+        }
+        else if(person==2){
+            cout << "Admin logged in" << endl;
+
+            choice = adminShow();
+            if(choice == -1 || choice == 5){return -1;}
+
+            choice = adminFunctions(choice);
+            if(choice == -1){return -1;}
         }
         else{
-            int r = FunctionsToPerform(choice);
-            if(r==-1){break;}
+            return 0; 
         }
+    
     }
-
-    //make switch cases for choice
-
-
     return 0;
 }
 
+int loginPerson(){
 
-int show(){
+    cout<<"1. User \n2. Admin \n3. Exit"<<endl;
+    int choice=0; string  password = ""; string  username = "";
+    cin>>choice;
+
+    if(choice==1){
+        username = "user"; password = "user";
+        choice = userLogin(username, password);
+    }
+    else if(choice==2){
+        username = "admin"; password = "admin";
+        choice = adminLogin(username, password);
+    }
+
+    return choice;
+}
+
+int userShow(){
+    cout<<"1. Add Employee \n2. Show Employee \n3. Exit"<<endl;
+    int choice=0;
+    cin>>choice;
+
+    return choice;
+}
+
+int adminShow(){
 
     //show user options
-    cout<<"\n"<<endl;
-    cout << "1. Add Employee" << endl;
-    cout << "2. Delete Employee" << endl;
-    cout << "3. Update Employee" << endl;
-    cout << "4. Show Employee" << endl;
-    cout << "5. Exit" << endl;
-    
+    cout<<"1. Add Employee \n2. Delete Employee \n3. Update Employee \n4. Show Employee \n5. Exit"<<endl;
     
     cout << "Enter your choice: ";
     int choice;
     cin >> choice;
     cout << endl;
-
     return choice;
-}
-
-int FunctionsToPerform(int choice){
-
-    //switch case for user choice
-    switch(choice){
-        case 1:
-            addEmployee();
-            
-            break;
-        case 2:
-           // deleteEmployee();
-            break;
-        case 3:
-           // updateEmployee();
-            break;
-        case 4:
-            showEmployee();
-            
-            break;
-        case 5:
-            if(conn == true){
-                closeConnection();
-            }
-            cout << "Thank you for using our system" << endl;
-            return -1;
-            break;
-        default:
-            cout << "Invalid choice" << endl;
-            break;
-    }
-
-    return 0;
 }

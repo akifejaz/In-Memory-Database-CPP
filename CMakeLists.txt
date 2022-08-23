@@ -6,7 +6,7 @@
 # set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 cmake_minimum_required(VERSION 2.8)
-project(INMem_DB CXX)
+project(InMem_DB CXX)
 # remove -g flag if you want to build release
 set(CMAKE_CXX_STANDARD 14)
 
@@ -26,7 +26,7 @@ list(APPEND custom_srcs
     
 )
 
-add_executable( INMem_DB 
+add_executable( InMem_DB 
                 ${custom_srcs}
         )
 

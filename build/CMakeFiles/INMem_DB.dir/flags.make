@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/. -I/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc 
+CXX_INCLUDES = -I/. -I"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc" 
 

@@ -1,3 +1,3 @@
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles/rebuild_cache.dir
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles/edit_cache.dir
-/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles/INMem_DB.dir
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles/edit_cache.dir
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles/InMem_DB.dir

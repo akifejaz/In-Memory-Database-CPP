@@ -94,5 +94,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/INMem_DB.dir/DependInfo.cmake"
+  "CMakeFiles/InMem_DB.dir/DependInfo.cmake"
   )

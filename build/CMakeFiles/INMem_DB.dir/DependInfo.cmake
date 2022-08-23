@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/main.cpp" "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles/INMem_DB.dir/main.cpp.o"
+  "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp" "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles/InMem_DB.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

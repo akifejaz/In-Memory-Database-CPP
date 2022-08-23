@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB
+CMAKE_SOURCE_DIR = "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build
+CMAKE_BINARY_DIR = "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/INMem_DB.dir/all
+all: CMakeFiles/InMem_DB.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/INMem_DB.dir/clean
+clean: CMakeFiles/InMem_DB.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/INMem_DB.dir
+# Target rules for target CMakeFiles/InMem_DB.dir
 
 # All Build rule for target.
-CMakeFiles/INMem_DB.dir/all:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/depend
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles --progress-num=1,2 "Built target INMem_DB"
-.PHONY : CMakeFiles/INMem_DB.dir/all
+CMakeFiles/InMem_DB.dir/all:
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/depend
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles" --progress-num=1,2 "Built target InMem_DB"
+.PHONY : CMakeFiles/InMem_DB.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/INMem_DB.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/INMem_DB.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles 0
-.PHONY : CMakeFiles/INMem_DB.dir/rule
+CMakeFiles/InMem_DB.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/InMem_DB.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles" 0
+.PHONY : CMakeFiles/InMem_DB.dir/rule
 
 # Convenience name for target.
-INMem_DB: CMakeFiles/INMem_DB.dir/rule
+InMem_DB: CMakeFiles/InMem_DB.dir/rule
 
-.PHONY : INMem_DB
+.PHONY : InMem_DB
 
 # clean rule for target.
-CMakeFiles/INMem_DB.dir/clean:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/clean
-.PHONY : CMakeFiles/INMem_DB.dir/clean
+CMakeFiles/InMem_DB.dir/clean:
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/clean
+.PHONY : CMakeFiles/InMem_DB.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

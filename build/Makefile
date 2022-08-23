@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB
+CMAKE_SOURCE_DIR = "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build
+CMAKE_BINARY_DIR = "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles" "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named INMem_DB
+# Target rules for targets named InMem_DB
 
 # Build rule for target.
-INMem_DB: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 INMem_DB
-.PHONY : INMem_DB
+InMem_DB: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 InMem_DB
+.PHONY : InMem_DB
 
 # fast build rule for target.
-INMem_DB/fast:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/build
-.PHONY : INMem_DB/fast
+InMem_DB/fast:
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/build
+.PHONY : InMem_DB/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/INMem_DB.dir/build.make CMakeFiles/INMem_DB.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/InMem_DB.dir/build.make CMakeFiles/InMem_DB.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... INMem_DB"
+	@echo "... rebuild_cache"
+	@echo "... InMem_DB"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

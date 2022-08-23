@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build"
+			"value" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB"
+			"value" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "INMem_DB"
+			"value" : "InMem_DB"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1006,7 +1006,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "INMem_DB_BINARY_DIR",
+			"name" : "InMem_DB_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1015,10 +1015,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build"
+			"value" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build"
 		},
 		{
-			"name" : "INMem_DB_SOURCE_DIR",
+			"name" : "InMem_DB_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1027,7 +1027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB"
+			"value" : "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP"
 		}
 	],
 	"kind" : "cache",

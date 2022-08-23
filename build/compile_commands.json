@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/build",
-  "command": "c++   -I/. -I/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc  -g   -std=gnu++14 -o CMakeFiles/INMem_DB.dir/main.cpp.o -c /mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/main.cpp",
-  "file": "/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/main.cpp"
+  "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build",
+  "command": "c++   -I/. -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc\"  -g   -std=gnu++14 -o CMakeFiles/InMem_DB.dir/main.cpp.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp\"",
+  "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp"
 }
 ]
