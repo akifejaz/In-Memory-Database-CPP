@@ -9,6 +9,7 @@ static int userConn = 0, adminConn = 0; //flag for connection
 int userLogin(string username, string password){
 
     if(username == "user" && password == "user"){
+        cout << "User logged in" << endl;
         userConn = 1;
         return 1;
     }
@@ -21,6 +22,7 @@ int userLogin(string username, string password){
 int adminLogin(string username, string password){
     
     if(username == "admin" && password == "admin"){
+        cout << "Admin logged in" << endl;
         adminConn = 1;
         return 2;   //val for admin in enum
     }
@@ -87,3 +89,4 @@ int adminFunctions(int choice){
 }
 
 #endif // _AP
+

@@ -21,7 +21,7 @@ int main()
     while(true){
         
         if(person==1){
-            cout << "User logged in" << endl;
+            
 
             choice = userShow();
             if(choice == -1 || choice == 3){return -1;}
@@ -31,7 +31,6 @@ int main()
 
         }
         else if(person==2){
-            cout << "Admin logged in" << endl;
 
             choice = adminShow();
             if(choice == -1 || choice == 5){return -1;}
@@ -84,3 +83,4 @@ int adminShow(){
     cout << endl;
     return choice;
 }
+
