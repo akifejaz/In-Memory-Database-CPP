@@ -14,8 +14,6 @@ int loginPerson();
 
 int main()
 {   
-    Empl
-
     cout << "Welcome to the Employee Management System" << endl;
     int person = loginPerson(); int choice = 0;
     if(person == -1 || person == 3){return -1;}
