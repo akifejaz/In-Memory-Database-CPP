@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/api.h
+iostream
+-
+
+/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/server.h
+vector
+-
+string
+-
+iostream
+-
+
+/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/main.cpp
+inc/server.h
+/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/server.h
+inc/api.h
+/mnt/d/Akif/Younite-Internship/Library-In-Mem-DB/inc/api.h
+
