@@ -1,1 +1,0 @@
-c++  -g  -rdynamic CMakeFiles/InMem_DB.dir/main.cpp.o  -o InMem_DB 
