@@ -1,7 +1,27 @@
 [
 {
   "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build",
-  "command": "c++   -I/. -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc\"  -g   -std=gnu++14 -o CMakeFiles/InMem_DB.dir/main.cpp.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp\"",
+  "command": "/usr/bin/g++   -I/. -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/inc\" -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest\"  -g   -o CMakeFiles/tests.dir/main.cpp.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp\"",
   "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/main.cpp"
+},
+{
+  "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/googletest/googlemock",
+  "command": "/usr/bin/g++   -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest\"  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/src/gmock_main.cc\"",
+  "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/googletest/googlemock",
+  "command": "/usr/bin/g++   -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/include\" -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest\"  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/src/gmock-all.cc\"",
+  "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/googletest/googletest",
+  "command": "/usr/bin/g++   -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/include\" -isystem \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest\"  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/src/gtest_main.cc\"",
+  "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/build/googletest/googletest",
+  "command": "/usr/bin/g++   -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/include\" -I\"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest\"  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c \"/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/src/gtest-all.cc\"",
+  "file": "/mnt/d/Akif/Younite-Internship/In Memory DB/In-Memory-Database-CPP/googletest/googletest/src/gtest-all.cc"
 }
 ]

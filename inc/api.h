@@ -2,41 +2,26 @@
 #define MACRO_API_H
 #include "server.h"
 
-static int userConn = 0, adminConn = 0; //flag for connection
-//enum for user admin and exit
 
-int userLogin(string username, string password){
+
+bool userLogin(string username, string password){
 
     if(username == "user" && password == "user"){
-        cout << "User logged in" << endl;
         f = user;
-        return 1;
+        return true;
     }
     else if(username == "admin" && password == "admin"){
-        cout << "Admin logged in" << endl;
         f = admin;
-        return 2;   //val for admin in enum
+        return true;   //val for admin in enum
     }
     else{
         cout << "Invalid username or password" << endl;
-        return -1;
+        return false;
     }
 }
 
-int adminLogin(string username, string password){
-    
-    if(username == "admin" && password == "admin"){
-        cout << "Admin logged in" << endl;
-        adminConn = 1;
-        return 2;   //val for admin in enum
-    }
-    else{
-        cout << "Invalid username or password" << endl;
-        return -1;
-    }
-}
 
-int userFunctions(int choice){
+void userFunctions(int choice){
     //switch b/w choices class functions Employee
     switch(choice){
         case 1:
@@ -45,7 +30,7 @@ int userFunctions(int choice){
         case 2:
             if(f==user){
                 cout<<"Login As Admin Please :"<<endl;
-                return false;
+                break;
             }
             static int id; cout<<"Enter id : "; cin>>id;
             classEmp.deleteEmployee(id);
@@ -53,7 +38,7 @@ int userFunctions(int choice){
         case 3:
             if(f==user){
                 cout<<"Login As Admin Please :"<<endl;
-                return false;
+                break;
             }
             id; cout<<"Enter id : "; cin>>id;
             classEmp.updateEmployee(id);
@@ -62,21 +47,17 @@ int userFunctions(int choice){
             classEmp.showEmployee();
             break;
         case 5:
-            if(userConn == 1){
-                userConn = 0;
-            }
-            cout << "Thank you for using our system" << endl;
-            return -1;
+            f = ForceExit;
             break;
         default:
             cout<<"Invalid Choice";
             break;
     }
-
-    return 0;
 }
 
 /*
+static int userConn = 0, adminConn = 0; //flag for connection
+//enum for user admin and exit
 
 int userFunctions(int choice){
     switch(choice){
